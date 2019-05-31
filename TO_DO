@@ -1,0 +1,42 @@
+TASK 1: integrate Dobot robotic arm into PLC 1
+To do list:
+-Write a script that allows Dobot to bring puck from lower level to higher level
+-Integrate light sensor (or other) onto conveyor 
+-Move Fischer-Technik arm to side (as backup) NOTE!! Find a way to move it under table so we dont have to disconnect
+-CAD extensions for Dobot arm
+-3D print extensions (above)
+-Modify 3D puck for arm (pending approval)
+-Add sensors or restraints to bottom of arm (so it does NOT go into -z axis (which it really likes to do))
+
+
+TASK 2: documentation
+To do list:
+-Document set-up of lab
+-Document sensors and Dobot integration (for easy removal)
+-Document start/stop of system //for TAs, etc.
+-Document how to make changes into system (have sections pertaining to one+ peice(s) of hardware)
+  -SOFTWARE
+  -HARDWARE
+-Reading list/ resource page to have everything explained
+-Make a safety document
+-Document for future changes (cool ideas to motivate future students)
+
+
+TASK 3: the fun stuff: Drone Integration Test 001 T-2 months
+To do list:
+-Finish drone and understand how it works
+-Document EVERYTHING
+-Have a way for drone to pick up puck. Claw? Suction? Mind control? the FORCE?
+-Deliver puck to a house (like Amazon)
+-set up net
+-SAFETY PROTOCOL THIS IS DANGEROUS //have this documented and understood before testing
+
+
+TASK 4: have lab controlled by phone app
+To do list:
+-phone app should be able to do what the UI currently does
+-login system (student/ employee ID?)
+
+
+TASK 5: second floor of lab
+-To be continued-
