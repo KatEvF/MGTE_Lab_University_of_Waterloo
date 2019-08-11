@@ -44,33 +44,27 @@ void setup()
 //}
 
 void puckCollection() {
-  Dobot_SetPTPCmd(MOVJ_XYZ, 264.0299, 83.9044, -40.4429, 52.3694); //Move above puck
+  Dobot_SetPTPCmd(MOVJ_XYZ, 247.8903, 115.1610, 80, 71.2524); //Move above puck
   delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 279.3217, 93.0454, -103.1226, 0); //Move onto puck
+  Dobot_SetPTPCmd(MOVJ_XYZ, 247.8903, 115.1610, -100.1210, 71.2524); //Move onto puck
   delay(500);
 //  puckDelivery();
 //  puckDropoff();
 }
 
 void puckDelivery() {
-  Dobot_SetPTPCmd(MOVJ_XYZ, 264.0299, 83.9044, -40.4429, 52.3694); //Move above puck
+  Dobot_SetPTPCmd(MOVJ_XYZ, 247.8903, 115.1610, 80, 71.2524); //Move above puck
   delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 206.2015, -46.3917, 60.7335, 24.0606); //Move away from puck
+  Dobot_SetPTPCmd(MOVJ_XYZ, 189.8389, 36.3215, 103.5901, 44.9624); //Move away from puck
   delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 171.0816, -133.2117, 153.7598, -1.1659);//Move closer to Slide
-  delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 89.0149, -198.8583, 160.9772, -29.1453); //Move even closer to Slide
+  Dobot_SetPTPCmd(MOVJ_XYZ, 147.3656, -251.6724, 121.7821, -14.0878);//Move over Slide
   delay(500);
 }
 
 void puckDropoff() {
-  Dobot_SetPTPCmd(MOVJ_XYZ, 117.8731, -245.7612, 148.3279, -27.6365);//On slide
+  Dobot_SetPTPCmd(MOVJ_XYZ, 147.3656, -251.6724, 121.7821, -14.0878);//Move over Slide
   delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 89.0149, -198.8583, 160.9772, -29.1453); //Move even closer to Slide
-  delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 171.0816, -133.2117, 153.7598, -1.1659);//Move closer to Slide
-  delay(500);
-  Dobot_SetPTPCmd(MOVJ_XYZ, 206.2015, -46.3917, 60.7335, 24.0606); //Move away from puck
+   Dobot_SetPTPCmd(MOVJ_XYZ, 147.3656, -251.6724, 109.5180, -14.0878); //Move close to slide to drop
   delay(500);
   flag1 = flag2 = flag3 = false;
 }
